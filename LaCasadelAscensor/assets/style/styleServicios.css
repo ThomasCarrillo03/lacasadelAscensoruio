@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #CECFC9;
+}
+
+.container img{
+    width: 100%;
+    max-width: 2000px;
+    max-height: 600px;
+    margin: auto;
+    filter: brightness(50%);
+}
+
+.container h2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    color: #CECFC9;
+    text-align: center;
+}
+
+.serviosBox{
+    width: 100%;
+    max-width: 2000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    text-align: center;
+}
+
+.serviosBox h4{
+    font-size: 35px;
+}
+
+.serviosBox p{
+    color: #0A3143;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.servicio1 img{
+    width: 250px;
+}
+
+.servicio2 img{
+    width: 250px;
+}
+
+.servicio3 img{
+    width: 250px;
+}
+
+.especial{
+    background-color: #5e6266;
+    height: 200px;
+    width: 100%;
+    max-width: 2000px;
+    text-align: center;
+}
+
+.especial h4{
+    padding-top: 50px;
+    font-size: 90 px;
+    color: #EFEFEF;
+}
+
+.especial p{
+    font-size: 90 px;
+    color: #CECFC9;
+}
+
+/*Inicia Footer*/
+footer {
+    padding: 2rem 0;
+    background-color: #212529;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-column:not(:first-child) {
+    padding-top: 2rem;
+
+    @media (min-width: 768px) {
+        padding-top: 0rem;
+    }
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+}
+
+footer .quick-links {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.copyright {
+    color: white;
+}
+
+.fa-ellipsis-h {
+    color: white;
+    padding: 2rem 0;
+}
+
+/*Termina Footer*/
